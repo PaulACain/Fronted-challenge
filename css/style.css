@@ -6,76 +6,162 @@ body{
   background-color: #ffffff;
   font-size: 10px;
 }
+
 .container{
   background-color: #979797;
   width: 375px;
-  height:500px;
   margin: auto; 0;
-
 }
 
 nav {
-  background-color: grey;
+  background-color: #28336D;
   margin: auto; 0;
   width: 100%;
   display: inline-block;
 }
+
 .navbar{
-  background-image: url("../Images/Base.png");
-  background-repeat: no-repeat;
   width: 100%;
   display: inline-block;
   position: relative;
+  padding-bottom: 10px;
 }
 
-.heaeder {
+.header {
   box-sizing: border-box;
   position: relative;
   display: inline-block;
+  font-size: 2em;
+  width: 50%;
+  color: white;
 }
 
 .arrow-left{
   box-sizing: border-box;
   display: inline-block;
   position: relative;
+  width: 28%;
+  padding-left:5%;
+  padding-top: 10px;
+
 }
 
 .buslist {
   box-sizing: border-box;
-  background-color:white;
+  background-color:#28336D;
   width:100%;
   margin:auto;
 }
 
 .location {
   box-sizing: border-box;
-  background-color: grey;
+  background-color: white;
   margin-bottom: 1px;
   width:100%;
   border-bottom: 1px, black;
-
 }
+
 .Eastbound{
-  background-color: green;
-  padding: 5px;
+  background-color: #f2f2f2;
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
   width: 100%;
-  font-size: 1.5em;
+  font-size: 1.8em;
+  font-weight: bolder;
   display: inline-block;
+  color: #28336D;
 }
 
-.HUNK {
-background-color: pink;
-height: 100px;
-padding: 1%;
-width: 80%;
-font-style: italic;
+.Northbound{background-color: #f2f2f2;
+padding-left: 5%;
+padding-top: 3%;
+padding-bottom: 3%;
+width: 100%;
+font-size: 1.8em;
+display: inline-block;
+font-weight: bolder;
+color: #28336D;
 }
+
+.Southbound{background-color: #f2f2f2;
+padding-left: 5%;
+padding-top: 3%;
+padding-bottom: 3%;
+width: 100%;
+font-size: 1.8em;
+display: inline-block;
+font-weight: bolder;
+color: #28336D;
+}
+
+.Reroute {background-color: #f2f2f2;
+padding-left: 5%;
+padding-top: 3%;
+padding-bottom: 3%;
+width: 100%;
+font-size: 1.8em;
+display: inline-block;
+font-weight: bolder;
+color: #28336D;
+}
+
+.Outofservice {background-color: #f2f2f2;
+padding-left: 5%;
+padding-top: 3%;
+padding-bottom: 3%;
+width: 100%;
+font-size: 1.8em;
+display: inline-block;
+font-weight: bolder;
+color: #28336D;
+}
+
+.content{
+  width: 100%;
+}
+.ISSUE {
+padding-left:5%;
+padding-top: 2%;
+padding-bottom: 2%;
+width: 50%;
+line-height: 1.4em;
+font-family: sans-serif;
+display: inline-block;
+position: relative;
+}
+
+h2{
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #28336D;
+}
+
+h3{
+  font-size: 1.3em;
+  color: #28336D;
+}
+h4 {
+  font-size: 1.2em;
+  font-weight: lighter;
+  font-style: italic;
+  color: #28336D;
+}
+
+/*.bus {
+  background-image: url("../Images/Vector.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 25%;
+  height: 25px;
+  display: inline-block;} */
 
 .arrow {
   box-sizing: border-box;
-  padding-left: 12%;
-  width: 18%;
+  padding-left: 40%;
+  width: 48%;
   display: inline-block;
   position: relative;
   top: -10px;
+  color: #28336D;
 }}
